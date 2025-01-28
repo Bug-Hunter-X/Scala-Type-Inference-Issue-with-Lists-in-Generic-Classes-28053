@@ -1,0 +1,4 @@
+# Scala Type Inference Issue with Lists in Generic Classes
+This code demonstrates a subtle type inference problem in Scala when using generic classes with Lists. The compiler's choice of `Any` instead of the specific list type causes a runtime error when trying to print a list from a generic class.
+
+The `bug.scala` file contains the buggy code, while `bugSolution.scala` provides a solution that addresses type inference issues. This showcases a common pitfall when working with generics and collections in Scala and provides a clear illustration for understanding type parameterization and variance in Scala. 
